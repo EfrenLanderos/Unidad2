@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block body %}
+    <h2>{{the_title}}</h2>
+    <p>The value of the escape velocity v:</p>
+    <table>
+        <tr>
+           <td>G:</td>
+           <td>{{the_G}}</td>
+        </tr>
+        <tr>
+           <td>M:</td>
+           <td>{{the_M}}</td>
+        </tr>
+        <tr>
+           <td>r:</td>
+           <td>{{the_r}}</td>
+        </tr>
+        <tr>
+            <td colspan="5">
+               ((2 * (G * M) )/ r) ** (1/2)
+            </td>
+        </tr>
+        <tr>
+            <td>v:</td>
+            <td>{{the_result}}</td>
+        </tr>
+    </table>
+{% endblock %}

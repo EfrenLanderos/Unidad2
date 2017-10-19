@@ -1,0 +1,6 @@
+escape_velocity.py
+setup.py
+escape_velocity.egg-info/PKG-INFO
+escape_velocity.egg-info/SOURCES.txt
+escape_velocity.egg-info/dependency_links.txt
+escape_velocity.egg-info/top_level.txt
