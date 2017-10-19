@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello_world():
-    return 'Hello World!'
+def hello_world()->'302':
+    return redirect('/entry')
 
 @app.route('/entry')
 def go_entry() -> 'html':
